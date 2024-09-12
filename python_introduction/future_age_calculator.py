@@ -1,4 +1,5 @@
-current_age=int(input("how old are you right now? "))
+current_age=0
+current_age=int(input("How old are you? "))
 age_in_2050= current_age + 27
 
 
