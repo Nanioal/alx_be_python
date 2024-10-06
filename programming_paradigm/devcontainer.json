@@ -1,0 +1,16 @@
+{
+    "name": "Python 3",
+    "image": "mcr.microsoft.com/devcontainers/python:3",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    },
+    "postCreateCommand": "pip install -r requirements.txt",
+    "remoteUser": "vscode"
+}
